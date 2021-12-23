@@ -5,7 +5,10 @@ WORKDIR ~/webapp/
 
 EXPOSE 3000
 
-RUN yarn install --frozen-lockfile
+RUN yarn -v
+
+RUN yarn install
+
 
 RUN yarn build
 

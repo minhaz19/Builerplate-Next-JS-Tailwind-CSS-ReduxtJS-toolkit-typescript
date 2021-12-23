@@ -2,3 +2,6 @@
 ./.next/
 ./.git/
 ./.idea/
+./.dockerignore
+./.docker-compose.yml
+./.gitignore
